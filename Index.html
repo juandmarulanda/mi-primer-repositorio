@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(188, 10, 87);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="boton1">color</button>
+<h1 style="color: blue; font-family: sans-serif;"> vamos a fdfddfdfdfumar marihuana </h1>
+<a href="articulos.html">Articulos perro</a>
+<img src="http://localhost:5500/assets/Perro.png" alt="Imagen de perro feliz">
+<!-- <img src="assets/Perro.png" alt="Imagen de perro feliz"> -->
+<div class="contenedor">
+    <h2>Este perro se parece a Yesid</h2>
+    <p>tiene los ojos separados</p>
+</div>
+<div class="contenedor">
+    <h2>pesa solo 104 kilos</h2>
+    <p id="parrafo-1">asdfasdfasdf</p>
+</div>
+<script>
+    console.log("alonso");
+const boton1 = document.getElementById("boton1")
+const body = document.querySelector("body")
+boton1.addEventListener("click", ()=>{
+    console.log(body.style)
+body.style.backgroundColor = body.style.backgroundColor === "yellow" ? "green":"yellow"
+})
+</script>
+</body>
+</html>

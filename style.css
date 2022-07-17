@@ -1,0 +1,16 @@
+.contenedor {
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+}
+.contenedor h2 {
+    color: rgb(242, 242, 242);
+    font-size: 34px;
+}
+.contenedor:hover h2 {
+    color: rgb(125, 115, 255);
+    font-size: 50px;
+}
+#parrafo-1 {
+    font-weight: 800;
+}
